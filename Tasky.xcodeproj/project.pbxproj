@@ -11,9 +11,6 @@
 		DC1C9F6B2B823EA700F0070A /* TasksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C9F6A2B823EA700F0070A /* TasksListView.swift */; };
 		DC1C9F6D2B823EA900F0070A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1C9F6C2B823EA900F0070A /* Assets.xcassets */; };
 		DC1C9F702B823EA900F0070A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1C9F6F2B823EA900F0070A /* Preview Assets.xcassets */; };
-		DC1C9F7A2B823EAA00F0070A /* TaskyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C9F792B823EAA00F0070A /* TaskyTests.swift */; };
-		DC1C9F842B823EAA00F0070A /* TaskyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C9F832B823EAA00F0070A /* TaskyUITests.swift */; };
-		DC1C9F862B823EAA00F0070A /* TaskyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C9F852B823EAA00F0070A /* TaskyUITestsLaunchTests.swift */; };
 		DC1C9F932B823EC500F0070A /* TaskyItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C9F922B823EC500F0070A /* TaskyItem.swift */; };
 		DC1C9F972B8243D400F0070A /* CreateTaskBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C9F962B8243D400F0070A /* CreateTaskBottomView.swift */; };
 		DC1C9F992B82524300F0070A /* TaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1C9F982B82524300F0070A /* TaskItemView.swift */; };
@@ -44,10 +41,7 @@
 		DC1C9F6C2B823EA900F0070A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC1C9F6F2B823EA900F0070A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC1C9F752B823EAA00F0070A /* TaskyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC1C9F792B823EAA00F0070A /* TaskyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskyTests.swift; sourceTree = "<group>"; };
 		DC1C9F7F2B823EAA00F0070A /* TaskyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC1C9F832B823EAA00F0070A /* TaskyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskyUITests.swift; sourceTree = "<group>"; };
-		DC1C9F852B823EAA00F0070A /* TaskyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DC1C9F922B823EC500F0070A /* TaskyItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskyItem.swift; sourceTree = "<group>"; };
 		DC1C9F962B8243D400F0070A /* CreateTaskBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskBottomView.swift; sourceTree = "<group>"; };
 		DC1C9F982B82524300F0070A /* TaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemView.swift; sourceTree = "<group>"; };
@@ -83,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				DC1C9F672B823EA700F0070A /* Tasky */,
-				DC1C9F782B823EAA00F0070A /* TaskyTests */,
-				DC1C9F822B823EAA00F0070A /* TaskyUITests */,
 				DC1C9F662B823EA700F0070A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,23 +109,6 @@
 				DC1C9F6F2B823EA900F0070A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DC1C9F782B823EAA00F0070A /* TaskyTests */ = {
-			isa = PBXGroup;
-			children = (
-				DC1C9F792B823EAA00F0070A /* TaskyTests.swift */,
-			);
-			path = TaskyTests;
-			sourceTree = "<group>";
-		};
-		DC1C9F822B823EAA00F0070A /* TaskyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DC1C9F832B823EAA00F0070A /* TaskyUITests.swift */,
-				DC1C9F852B823EAA00F0070A /* TaskyUITestsLaunchTests.swift */,
-			);
-			path = TaskyUITests;
 			sourceTree = "<group>";
 		};
 		DC1C9F942B823EDA00F0070A /* Models */ = {
@@ -298,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1C9F7A2B823EAA00F0070A /* TaskyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1C9F842B823EAA00F0070A /* TaskyUITests.swift in Sources */,
-				DC1C9F862B823EAA00F0070A /* TaskyUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
