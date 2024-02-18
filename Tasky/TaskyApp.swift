@@ -12,7 +12,7 @@ import SwiftData
 struct TaskyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TasksListView()
                 .modelContainer(for: TaskyItem.self)
         }
     }
