@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct TaskyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: TaskyItem.self)
         }
     }
 }
