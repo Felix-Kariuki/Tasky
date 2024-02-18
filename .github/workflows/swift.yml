@@ -8,13 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-      
+   
     - name: Set up Swift
-      uses: swift-actions/setup-swift@v2
+      uses: actions/checkout@v3
       with:
-        swift-version: '5.9' # Specify the Swift version
+        swift-version: '5.9' 
         
     - name: Build project
       run: swift build -v
